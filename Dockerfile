@@ -1,4 +1,4 @@
-FROM drecom/centos-rails:ruby-2.6.4
+FROM drecom/centos-rails:ruby-2.6.5
 
 RUN yum -y install https://centos7.iuscommunity.org/ius-release.rpm \
  && yum -y install \
